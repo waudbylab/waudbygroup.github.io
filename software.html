@@ -59,7 +59,12 @@
 				<ul class="actions special">
 					<li><a href="#TITAN" class="button">NMR TITAN</a></li>
 					<li><a href="#pp" class="button">Pulse programs</a></li>
+					<li><a href="#topspin-samples" class="button">Topspin Sample Manager</a></li>
+				</ul>
+				<ul class="actions special">
 					<li><a href="#NMRTools" class="button">NMRTools.jl</a></li>
+					<li><a href="#NMRAnalysis" class="button">NMRAnalysis.jl</a></li>
+					<li><a href="#NMRScreen" class="button">NMRScreen.jl</a></li>
 					<li><a href="pymol-colouring.html" class="button">Pymol Colouring</a></li>
 				</ul>
 			</header>
@@ -113,6 +118,23 @@
 					</div>
 				</section>
 
+				<section class="spotlight" id="topspin-samples">
+					<div class="image">
+						<img src="images/topspin-samples.png" alt="" />
+					</div>
+					<div class="content">
+						<h2>Topspin Sample Manager</h2>
+						<p>
+							A lightweight sample metadata management system that runs natively within Bruker TopSpin,
+							helping you track what's in your NMR tube alongside your spectral data.
+						</p>
+						<ul class="actions stacked">
+							<li><a href="https://waudbylab.org/topspin-samples/" class="button fit primary">Learn
+									More</a></li>
+						</ul>
+					</div>
+				</section>
+
 				<section class="spotlight" id="NMRTools">
 					<div class="image">
 						<img src="images/nmrtools.png" alt="" />
@@ -129,9 +151,55 @@
 julia> spec = loadnmr("../../exampledata/1D_19F/test.ft1")
 julia> plot(spec)</code></pre>
 						<ul class="actions stacked">
-							<li><a href="https://chriswaudby.github.io/NMRTools.jl/stable/"
-									class="button fit primary">Learn More</a></li>
+							<li><a href="https://waudbylab.org/NMRTools.jl/" class="button fit primary">Learn More</a>
+							</li>
 							<!-- <li><a href="#" class="button fit">Learn More</a></li> -->
+						</ul>
+					</div>
+				</section>
+
+				<section class="spotlight" id="NMRAnalysis">
+					<div class="image">
+						<img src="images/nmr-analysis.png" alt="" />
+					</div>
+					<div class="content">
+						<h2>NMRAnalysis.jl</h2>
+						<p>
+							A Julia package for analysis of NMR data, with particular focus on relaxation, diffusion,
+							screening and protein dynamics experiments.
+						</p>
+						<p>
+							Also features a graphical interface for analysis of R1rho relaxation dispersion data,
+							featured in our recent preprint (add link).
+						</p>
+						<ul class="actions stacked">
+							<li><a href="https://waudbylab.org/NMRAnalysis.jl/" class="button fit primary">Learn
+									More</a></li>
+						</ul>
+					</div>
+				</section>
+
+				<section class="spotlight" id="NMRScreen">
+					<div class="image">
+						<img src="images/nmrscreen.png" alt="" />
+					</div>
+					<div class="content">
+						<h2>NMRScreen.jl</h2>
+						<p>
+							An easy-to-use package for analysis of NMR fragment screening data, specialising in 19F R₂
+							relaxation measurements. This has been developed in-house with medicinal chemists and
+							structural biologists in mind, and makes fragment hit identification straightforward even
+							for those without NMR expertise. The tool automatically matches signals to compounds and
+							generates clear visualisations of your results.
+						</p>
+						<p>
+							Currently the basis of our in-house fragment screening platform: <a
+								href="https://www.ucl.ac.uk/life-sciences/pharmacy/about/facilities/sop-nuclear-magnetic-resonance-nmr-facility/19f-nmr-fragment-screening-platform">19F
+								NMR Fragment Screening Platform</a>.
+						</p>
+						<ul class="actions stacked">
+							<li><a href="https://waudbylab.org/NMRScreen.jl/" class="button fit primary">Learn More</a>
+							</li>
 						</ul>
 					</div>
 				</section>
